@@ -1,11 +1,11 @@
-import { Header } from 'components/Header';
 import { FC } from 'react';
+import { Landing } from 'components/landing/Landing';
 
 const Home: FC = () => {
 	return (
-		<div>
-			<Header></Header>
-		</div>
+		<main>
+			<Landing />
+		</main>
 	);
 };
 
