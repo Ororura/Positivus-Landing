@@ -1,0 +1,50 @@
+[
+  {
+    "title":  "Search engine optimization",
+    "bgColorText":  "bg-primary-light-green",
+    "bgColor":  "bg-primary-gray",
+    "learnMoreIcon": "/assets/svg/learn.svg",
+    "learnMoreColor": "text-black",
+    "image": "/assets/photos/Illustration.png"
+  },
+  {
+    "title": "Pay-per-click advertising",
+    "bgColorText": "bg-primary-gray",
+    "bgColor": "bg-primary-light-green",
+    "learnMoreIcon": "/assets/svg/learnwhite.svg",
+    "learnMoreColor": "text-black",
+    "image": "/assets/photos/tokyo.png"
+  },
+  {
+    "title": "Social Media Marketing",
+    "bgColorText": "bg-primary-gray",
+    "bgColor": "bg-black",
+    "learnMoreIcon": "/assets/svg/learnwhite.svg",
+    "learnMoreColor": "text-white",
+    "image": "/assets/photos/tokyo-browser-window-with-emoticon-likes-and-stars-around.png"
+  },
+  {
+    "title": "Email Marketing",
+    "bgColorText": "bg-primary-light-green",
+    "bgColor": "bg-primary-gray",
+    "learnMoreIcon": "/assets/svg/learn.svg",
+    "learnMoreColor": "text-black",
+    "image": "/assets/photos/tokyo-sending-messages-from-one-place-to-another.png"
+  },
+  {
+    "title": "Content Creation",
+    "bgColorText": "bg-primary-gray",
+    "bgColor": "bg-primary-light-green",
+    "learnMoreIcon": "/assets/svg/learnwhite.svg",
+    "learnMoreColor": "text-black",
+    "image": "/assets/photos/tokyo-many-browser-windows-with-different-information 1.png"
+  },
+  {
+    "title": "Social Media Marketing",
+    "bgColorText": "bg-primary-light-green",
+    "bgColor": "bg-black",
+    "learnMoreIcon": "/assets/svg/learnwhite.svg",
+    "learnMoreColor": "text-white",
+    "image": "/assets/photos/tokyo-volumetric-analytics-of-different-types-in-web-browsers 2.png"
+  }
+]

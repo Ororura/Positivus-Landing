@@ -18,12 +18,12 @@ const Landing: FC = () => {
 				<Image src={'/assets/svg/Illustration.svg'} alt={'Illustration'} width={600} height={515} />
 			</div>
 			<div className={'mt-[70px] flex justify-around'}>
-				<Image src={'/assets/svg/Companylogo.svg'} alt={'Companylogo.svg'} width={125} height={48} />
-				<Image src={'/assets/svg/Company logo-1.svg'} alt={'Companylogo.svg'} width={125} height={48} />
-				<Image src={'/assets/svg/Company logo-2.svg'} alt={'Companylogo.svg'} width={125} height={48} />
-				<Image src={'/assets/svg/Company logo-3.svg'} alt={'Companylogo.svg'} width={125} height={48} />
-				<Image src={'/assets/svg/Company logo-4.svg'} alt={'Companylogo.svg'} width={125} height={48} />
-				<Image src={'/assets/svg/Company logo-5.svg'} alt={'Companylogo.svg'} width={125} height={48} />
+				<Image src={'/assets/svg/Company logo.svg'} alt={'Company logo.svg'} width={125} height={48} />
+				<Image src={'/assets/svg/Company logo-1.svg'} alt={'Company logo.svg'} width={125} height={48} />
+				<Image src={'/assets/svg/Company logo-2.svg'} alt={'Company logo.svg'} width={125} height={48} />
+				<Image src={'/assets/svg/Company logo-3.svg'} alt={'Company logo.svg'} width={125} height={48} />
+				<Image src={'/assets/svg/Company logo-4.svg'} alt={'Company logo.svg'} width={125} height={48} />
+				<Image src={'/assets/svg/Company logo-5.svg'} alt={'Company logo.svg'} width={125} height={48} />
 			</div>
 		</div>
 	);
