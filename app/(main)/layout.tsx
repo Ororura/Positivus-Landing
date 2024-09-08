@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
-import './globals.css';
+import '../globals.css';
 import { Space_Grotesk } from 'next/font/google';
-import { Header } from 'components/hoc/header';
+import { Header } from '../../src/ui/hoc/header';
 
 const spaceGrotesk = Space_Grotesk({ subsets: ['latin'] });
 
