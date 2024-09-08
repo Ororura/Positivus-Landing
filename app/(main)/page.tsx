@@ -3,6 +3,7 @@ import { Landing } from 'components/landing/ui/Landing';
 import { Services } from 'components/services/ui';
 import { CTA } from 'components/cta/ui';
 import { CaseStudies } from 'components/caseStudies/ui';
+import { WorkingProcess } from 'components/workingProcess/ui';
 
 const Home: FC = () => {
 	return (
@@ -11,7 +12,7 @@ const Home: FC = () => {
 			<Services />
 			<CTA />
 			<CaseStudies />
-			{/*<WorkingProcess />*/}
+			<WorkingProcess />
 		</main>
 	);
 };
