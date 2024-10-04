@@ -1,18 +1,18 @@
 import { FC } from 'react';
-import { Heading } from 'components/heading/ui/Heading';
+import { Heading } from 'components/heading/ui';
 import { LearnMore } from 'components/learnMore/ui';
 
 const CaseStudies: FC = () => {
+	const description = () => {
+		return <p>Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies</p>;
+	};
+
 	return (
 		<div className={'mx-auto mt-[140px] max-w-[1440px] px-[100px]'}>
-			<Heading
-				maxWidth={'max-w-[885px]'}
-				title={'Case Studies'}
-				desc={'Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies'}
-			/>
+			<Heading maxWidth={'max-w-[885px]'} title={'Case Studies'} desc={description()} />
 			<div
 				className={
-					'bg-primary-dark mt-[80px] flex justify-between rounded-[45px] px-[60px] pb-[93px] pt-[70px] text-white'
+					'mt-[80px] flex justify-between rounded-[45px] bg-primary-dark px-[60px] pb-[93px] pt-[70px] text-white'
 				}
 			>
 				<div className={'max-w-[286px]'}>

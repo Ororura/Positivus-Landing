@@ -1,6 +1,6 @@
 import { FC } from 'react';
-import { Heading } from 'components/heading/ui/Heading';
-import { ProcessContainer } from 'components/workingProcess/ui/ProcessContainer';
+import { Heading } from 'components/heading/ui';
+import { ProcessContainer } from 'components/processContainer/ui';
 
 const WorkingProcess: FC = () => {
 	const description = () => {
