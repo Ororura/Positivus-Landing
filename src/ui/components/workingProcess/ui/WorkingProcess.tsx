@@ -3,17 +3,17 @@ import { Heading } from 'components/heading/ui';
 import { ProcessContainer } from 'components/processContainer/ui';
 
 const WorkingProcess: FC = () => {
-	const description = () => {
-		return (
-			<p className={'ml-10 max-w-[580px] text-[18px]'}>
-				Step-by-Step Guide to Achieving <br /> Your Business Goals
-			</p>
-		);
-	};
-
 	return (
 		<div className={'mx-auto mt-[140px] max-w-[1440px] px-[100px]'}>
-			<Heading maxWidth={'max-w-[828px]'} title={'Our Working Process '} desc={description()} />
+			<Heading
+				maxWidth={'max-w-[828px]'}
+				title={'Our Working Process '}
+				desc={
+					<p className={'ml-10 max-w-[580px] text-[18px]'}>
+						Step-by-Step Guide to Achieving <br /> Your Business Goals
+					</p>
+				}
+			/>
 			<div
 				className={`min-h[310px] py mt-[80px] max-w-[1234px] rounded-[45px] border border-b-[6px] border-black bg-primary-light-green px-[60px] py-[41px]`}
 			>

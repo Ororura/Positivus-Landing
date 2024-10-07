@@ -4,7 +4,7 @@ import Image from 'next/image';
 const CTA: FC = () => {
 	return (
 		<div className={'mx-auto max-w-[1440px] px-[100px]'}>
-			<div className={'bg-primary-gray relative mt-[100px] flex min-h-[394px] rounded-[45px] px-[60px] py-[60px]'}>
+			<div className={'relative mt-[100px] flex min-h-[394px] rounded-[45px] bg-primary-gray px-[60px] py-[60px]'}>
 				<div className={'max-w-[500px]'}>
 					<p className={'text-[30px]'}>Let’s make things happen</p>
 					<p className={'text-[18px]'}>
