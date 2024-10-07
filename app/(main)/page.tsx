@@ -7,16 +7,16 @@ import { WorkingProcess } from 'components/workingProcess/ui';
 import { Team } from 'components/team/ui';
 
 const Home: FC = () => {
-	return (
-		<main>
-			<Landing />
-			<Services />
-			<CTA />
-			<CaseStudies />
-			<WorkingProcess />
-			<Team />
-		</main>
-	);
+  return (
+    <main>
+      <Landing />
+      <Services />
+      <CTA />
+      <CaseStudies />
+      <WorkingProcess />
+      <Team />
+    </main>
+  );
 };
 
 export default Home;

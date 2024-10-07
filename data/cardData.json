@@ -1,8 +1,8 @@
 [
   {
-    "title":  "Search engine optimization",
-    "bgColorText":  "bg-primary-light-green",
-    "bgColor":  "bg-primary-gray",
+    "title": "Search engine optimization",
+    "bgColorText": "bg-primary-light-green",
+    "bgColor": "bg-primary-gray",
     "learnMoreIcon": "/assets/svg/learn.svg",
     "learnMoreColor": "text-black",
     "image": "/assets/photos/Illustration.png"
