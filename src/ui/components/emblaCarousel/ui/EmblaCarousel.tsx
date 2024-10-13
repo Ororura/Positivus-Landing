@@ -2,7 +2,8 @@
 import React from 'react';
 import { EmblaOptionsType } from 'embla-carousel';
 import { DotButton } from 'components/emblaCarouselDotButton/ui';
-import { PrevButton, NextButton, usePrevNextButtons } from 'components/emblaCarouselArrowButtons/ui';
+import { PrevButton, NextButton } from 'components/emblaCarouselArrowButtons/ui';
+import { usePrevNextButtons } from 'components/emblaCarouselArrowButtons/hooks';
 import useEmblaCarousel from 'embla-carousel-react';
 import './embla.css';
 import { useDotButton } from 'components/emblaCarouselDotButton/hooks';
@@ -33,6 +34,10 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                   about the success of our business. We highly recommend Positivus to any company looking to grow their
                   online presence.
                 </p>
+              </div>
+              <div className='ml-20 mt-[48px]'>
+                <p className='text-primary-light-green'>John Smith</p>
+                <p className='text-white'>Marketing Director at XYZ Corp</p>
               </div>
             </div>
           ))}

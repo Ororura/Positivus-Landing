@@ -18,7 +18,7 @@ const Testimonials: FC = () => {
         }
       />
       <div className={'mt-[80px] h-[625px] w-[1240px] rounded-[45px] bg-primary-dark'}>
-        <EmblaCarousel slides={Array.from(Array(5).keys())} options={{} as EmblaOptionsType} />
+        <EmblaCarousel slides={[0, 1, 2, 3, 4]} options={{} as EmblaOptionsType} />
       </div>
     </div>
   );

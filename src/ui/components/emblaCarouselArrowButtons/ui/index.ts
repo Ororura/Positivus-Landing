@@ -1,1 +1,1 @@
-export { NextButton, PrevButton, usePrevNextButtons } from './EmblaCarouselArrowButtons';
+export { NextButton, PrevButton } from './EmblaCarouselArrowButtons';
