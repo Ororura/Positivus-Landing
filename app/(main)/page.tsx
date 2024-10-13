@@ -5,6 +5,7 @@ import { CTA } from 'components/cta/ui';
 import { CaseStudies } from 'components/caseStudies/ui';
 import { WorkingProcess } from 'components/workingProcess/ui';
 import { Team } from 'components/team/ui';
+import { Testimonials } from 'components/testimonials/ui';
 
 const Home: FC = () => {
   return (
@@ -15,6 +16,7 @@ const Home: FC = () => {
       <CaseStudies />
       <WorkingProcess />
       <Team />
+      <Testimonials />
     </main>
   );
 };

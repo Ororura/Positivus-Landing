@@ -59,6 +59,11 @@ const Team: FC = () => {
           }
         />
       </div>
+      <div className={'mt-[40px] flex w-full justify-end'}>
+        <div className={'grid h-[68px] w-[269px] items-center rounded-2xl bg-black text-center text-white'}>
+          <p>See all team</p>
+        </div>
+      </div>
     </div>
   );
 };
